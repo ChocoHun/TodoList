@@ -1,0 +1,20 @@
+.List > input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(200, 200, 235);
+  padding: 15px 0px;
+}
+.List > input:focus {
+  outline: none;
+  border-bottom: 1px solid rgb(40, 169, 216);
+}
+.todos_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
